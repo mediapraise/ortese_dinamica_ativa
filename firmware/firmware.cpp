@@ -36,14 +36,14 @@ const char MAPA_TECLAS[4][4] = {
   {'*', '0', '#', 'D'}
 };
 
-// Variáveis para evitar múltiplos cliques fantasmas (Debounce básico)
+// TROCAR POR INCREMENTAÇÃO CONTÍNUA - Variáveis para evitar múltiplos cliques fantasmas (Debounce básico)
 char ultimaTeclaPressionada = '\0';
 unsigned long tempoUltimaTecla = 0;
 
 // ==============================================================================
 // MAPEAMENTO DE FUNÇÕES DO TECLADO FÍSICO
 // ==============================================================================
-/* Como os botões físicos vão controlar os servos:
+/* ORGANIZAR MELHOR A POSIÇÃO DE USO DOS BOTÕES - Como os botões físicos vão controlar os servos:
    Teclas '1' a '5' -> Incrementa (+10°) o respectivo Servo (1 a 5)
    Teclas '6' a '0' -> Decrementa (-10°) o respectivo Servo (1 a 5)
    Tecla 'A'        -> Macro: Zerar Todos (10°)

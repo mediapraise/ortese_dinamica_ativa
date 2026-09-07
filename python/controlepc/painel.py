@@ -6,7 +6,7 @@ import time
 # CONFIGURAÇÕES DE CONEXÃO COM O ESP32
 # ==============================================================================
 MOCK_MODE = True  # Mudar aqui para False quando conectar ao ESP32
-PORTA_SERIAL = "COM3"  # Altere para a porta do seu ESP32
+PORTA_SERIAL = "COM3"  # Altere para a porta onde estiver o ESP32
 BAUD_RATE = 115200
 
 if not MOCK_MODE:
@@ -26,7 +26,7 @@ class AppServos(ctk.CTk):
         super().__init__()
 
         self.title("Controle de Servomotores - ESP32 (Acessibilidade Ativada)")
-        # Janela um pouco mais larga para acomodar a grande barra de botões macros
+        # Dimensões da Janela 
         self.geometry("1100x700")
         self.resizable(True, True)
 
@@ -43,7 +43,7 @@ class AppServos(ctk.CTk):
         self.valores_servos = {}
         
         # Título Principal
-        self.titulo = ctk.CTkLabel(self, text="PAINEL DE CONTROLE DOS SERVOMOTORES", font=ctk.CTkFont(size=22, weight="bold"))
+        self.titulo = ctk.CTkLabel(self, text="ÓRTESE DINÂMICA ATIVA - PAINEL DE CONTROLE DOS SERVOMOTORES", font=ctk.CTkFont(size=22, weight="bold"))
         self.titulo.pack(pady=20)
 
         # Container Principal para os Sliders
@@ -81,7 +81,7 @@ class AppServos(ctk.CTk):
             setattr(self, f"lbl_graus_{i}", lbl_graus)
 
         # ==============================================================================
-        # SEGUNDO NÍVEL: COMPONENTES GIGANTES DE ACESSIBILIDADE HIERÁRQUICA
+        # SEGUNDO NÍVEL: BOTÕES GRANDES PARA FÁCIL CONTROLE COM MOVIMENTOS NO ROSTO
         # ==============================================================================
         # Frame master para os botões do segundo nível
         self.frame_botoes = ctk.CTkFrame(self)

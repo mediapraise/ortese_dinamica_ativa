@@ -1,0 +1,28 @@
+Data_Hora,Polegar_Y,Indicador_Y
+2026-09-07 01:08:09.897, Connection(0) Could not bind to 169.254.122.23 - [WinError 10049] O endereço solicitado não é válido no contexto
+2026-09-07 01:08:09.913, Connection(0) Could not bind to 169.254.141.218 - [WinError 10049] O endereço solicitado não é válido no contexto
+2026-09-07 01:08:09.913, Connection(0) Could not bind to 169.254.112.72 - [WinError 10049] O endereço solicitado não é válido no contexto
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('192.168.56.1', 58369) -> ('192.168.56.1', 53311)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('192.168.0.237', 58373) -> ('192.168.56.1', 53311)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66::7b6', 58370) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 58371) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 58372) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('192.168.56.1', 58369) -> ('192.168.0.237', 53315)) State.FROZEN -> State.WAITING
+2026-09-07 01:08:09.913, Connection(0) Check CandidatePair(('192.168.56.1', 58369) -> ('192.168.56.1', 53311)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:09.937, Connection(0) Check CandidatePair(('192.168.0.237', 58373) -> ('192.168.56.1', 53311)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:09.970, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66::7b6', 58370) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:10.002, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 58371) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:10.037, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 58372) -> ('2804:14d:1c79:8c66::7b6', 53312)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:10.068, Connection(0) Check CandidatePair(('192.168.56.1', 58369) -> ('192.168.0.237', 53315)) State.WAITING -> State.IN_PROGRESS
+2026-09-07 01:08:10.102, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66::7b6', 58370) -> ('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 53313)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.135, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 58371) -> ('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 53313)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.166, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 58372) -> ('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 53313)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.197, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66::7b6', 58370) -> ('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 53314)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.228, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:e38e:46a9:146b:bcb7', 58371) -> ('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 53314)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.260, Connection(0) Check CandidatePair(('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 58372) -> ('2804:14d:1c79:8c66:d43d:8806:64a9:55fc', 53314)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:10.291, Connection(0) Check CandidatePair(('192.168.0.237', 58373) -> ('192.168.0.237', 53315)) State.FROZEN -> State.IN_PROGRESS
+2026-09-07 01:08:30.254, Connection(0) Check CandidatePair(('192.168.56.1', 58369) -> ('192.168.56.1', 53311)) State.IN_PROGRESS -> State.SUCCEEDED
+2026-09-07 01:08:30.269, Connection(0) Check CandidatePair(('192.168.0.237', 58373) -> ('192.168.0.237', 53315)) State.IN_PROGRESS -> State.SUCCEEDED
+2026-09-07 01:08:30.269, Connection(0) ICE completed
+2026-09-07 01:09:48.996, Task was destroyed but it is pending!
+task: <Task pending name='Task-29' coro=<RTCPeerConnection.close() running at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiortc\rtcpeerconnection.py:535> wait_for=<Future finished result=True>>
